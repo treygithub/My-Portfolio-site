@@ -1,0 +1,293 @@
+
+
+            body,
+            html {
+                height: 100%;
+                margin: 0%;
+                padding: 0%;
+                background-color: rgba(248, 246, 246, 0.993)
+            }
+            
+           
+            
+            .title-portfolio {
+                color: black;
+                text-align: center;
+            }
+            
+            #hide,
+            #hide1,
+            #hide2,
+            #hide3,
+            #hide4,
+            #hide5,
+            #hide6 {
+                display: none;
+                background-color: white;
+                border: 3px solid gray;
+                border-radius: 10px;
+                width: 85%;
+                color: black;
+            }
+            
+            #hide a:hover {
+                color: red;
+            }
+            #hide1 a:hover {
+                color: red;
+            }
+            
+            #hide2 a:hover {
+                color: red;
+            }
+            
+            #hide3 a:hover {
+                color: red;
+            }
+            
+            #hide4 a:hover {
+                color: red;
+            }
+            
+            #hide5 a:hover {
+                color: red;
+            }
+            
+            #hide6 a:hover {
+                color: red;
+            }
+            
+            #hide a>h3:hover {
+                color: red;
+            }
+            #hide1 a>h3:hover {
+                color: red;
+            }
+            
+            #hide2 a>h3:hover {
+                color: red;
+            }
+            
+            #hide3 a>h3:hover {
+                color: red;
+            }
+            
+            #hide4 a>h3:hover {
+                color: red;
+            }
+            
+            #hide5 a>h3:hover {
+                color: red;
+            }
+            
+            #hide6 a>h3:hover {
+                color: red;
+            }
+            
+            .btn {
+                width: 300px;
+                height: 50px;
+                border-radius: 12px;
+                color: white;
+                font-size: 5rem;
+                background-color: GRAY;
+                font-family: Times, serif;
+            }
+        
+
+            
+            .item a>h3 {
+                color: black;
+            }
+            
+            .item h3 {
+                color: black;
+            }
+            
+            .item p {
+                color: black;
+            }
+            
+            #navbarCollapse ul>li>a:hover {
+                background: #ddd;
+                color: black;
+            }
+            
+            .nav,
+            .navbar-nav>a>li {
+                list-style: none;
+            }
+            
+            /* Global */
+            
+            .container-boxes {
+                width: 80%;
+                margin: auto;
+                overflow: hidden;
+            }
+            /* Boxes */
+            
+            #boxes {
+                margin-top: 20px;
+            }
+            
+            #boxes .box {
+                float: left;
+                text-align: center;
+                width: 30%;
+                padding: 10px;
+            }
+            
+            #boxes .box img {
+                width: 300px;
+                margin: auto;
+            }
+            
+            .parallax1 {
+                /* The image used */
+                background-image: url('../images/main-pic-1.jpg');
+                /* Full height */
+                height: 100%;
+                /* Create the parallax scrolling effect */
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .parallax2 {
+                /* The image used */
+                background-image: url("../images/main-pic-2.jpg");
+                /* Full height */
+                height: 100%;
+                /* Create the parallax scrolling effect */
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .parallax3 {
+                /* The image used */
+                background-image: url("../images/main-pic-3.jpg");
+                /* Full height */
+                height: 100%;
+                /* Create the parallax scrolling effect */
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .parallax4 {
+                /* The image used */
+                background-image: url("../images/main-pic-4.jpg");
+                /* Full height */
+                height: 100%;
+                /* Create the parallax scrolling effect */
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            #carousel1 .nav a small {
+                display: block;
+            }
+            
+            #carousel1 .nav {
+                background: #eee;
+            }
+            
+            .nav-justified>li>a {
+                border-radius: 0px;
+            }
+            
+            .nav-pills>li[data-slide-to="0 "].active a {
+                background-color: #75ad60;
+            }
+            
+            .nav-pills>li[data-slide-to="1 "].active a {
+                background-color: #eb39dc;
+            }
+            
+            .nav-pills>li[data-slide-to="2 "].active a {
+                background-color: #d11e4f;
+            }
+            
+        
+            
+            .carousel-caption .monkey2 {
+                font-size: 1.8rem;
+                color: white;
+            }
+            
+            .hey a {
+                color: white;
+            }
+            
+            .hey a:hover {
+                color: red;
+            }
+            
+            @media (min-width:481px) and (max-width:900px) {
+                .parallax1 {
+                    background-attachment: scroll;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                }
+                .parallax2 {
+                    background-attachment: scroll;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                }
+                .parallax3 {
+                    background-attachment: scroll;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                }
+                #boxes .box {
+                    float: none;
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+            /* Media Queries */
+            
+            @media (max-width:480px) {
+                .carousel-caption .btn {
+                    display: none;
+                }
+                .container1 {
+                    display: none;
+                }
+                .parallax1 {
+                    display: none;
+                    background-attachment: scroll;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                }
+                .parallax2 {
+                    display: none;
+                    background-attachment: scroll;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                }
+                .parallax3 {
+                    display: none;
+                    background-attachment: scroll;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                }
+                #boxes .box {
+                    float: none;
+                    width: 100%;
+                    text-align: center;
+                }
+            }
