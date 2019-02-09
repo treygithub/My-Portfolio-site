@@ -1,6 +1,22 @@
 <?php
    include("mylibrary/login.php");
+   include("mylibrary/ip-tor-blocker.php");
+   getUserHostIP();
+   getUserHostIP2();
+   getUserHostIP3();
+   getUserHostIP4();
+   getUserHostIP5();
+   getUserHostIP6();
+   getUserHostIP7();
    login();
+   $visitorIp = getUserIP();
+   $denied_ips = ipfreely();
+   $status = array_search($visitorIp, $denied_ips);
+   
+   if($status !== false){  
+   header("Location: unauthorized.php");
+   die();
+   };
 
    $email = $_POST['email'];
 
